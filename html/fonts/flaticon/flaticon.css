@@ -1,0 +1,72 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-meditation:before { content: "\f100"; }
+.flaticon-woman-1:before { content: "\f101"; }
+.flaticon-flower:before { content: "\f102"; }
+.flaticon-treatment:before { content: "\f103"; }
+.flaticon-liposuction:before { content: "\f104"; }
+.flaticon-yin-yang:before { content: "\f105"; }
+.flaticon-woman:before { content: "\f106"; }
+.flaticon-plant-1:before { content: "\f107"; }
+.flaticon-branch:before { content: "\f108"; }
+.flaticon-medical:before { content: "\f109"; }
+.flaticon-bath:before { content: "\f10a"; }
+.flaticon-nature:before { content: "\f10b"; }
+.flaticon-aromatherapy-tool-with-a-burning-candle-heating-fragrance-oil:before { content: "\f10c"; }
+.flaticon-scented-candle:before { content: "\f10d"; }
+.flaticon-man-sitting-in-sauna:before { content: "\f10e"; }
+.flaticon-hand-and-leaf-silhouettes:before { content: "\f10f"; }
+.flaticon-couple-of-half-oranges:before { content: "\f110"; }
+.flaticon-herbs-leaves-for-natural-spa-treatment:before { content: "\f111"; }
+.flaticon-man-lying-on-a-deck-chair-of-a-spa:before { content: "\f112"; }
+.flaticon-walkway-and-a-plant:before { content: "\f113"; }
+.flaticon-spa-discount:before { content: "\f114"; }
+.flaticon-spa:before { content: "\f115"; }
+.flaticon-hand-of-black-human:before { content: "\f116"; }
+.flaticon-nautilus-shell-of-sea-life-to-hear-the-sea-sound-for-relaxation:before { content: "\f117"; }
+.flaticon-acupuncture-needles:before { content: "\f118"; }
+.flaticon-bamboo-plants-of-spa:before { content: "\f119"; }
+.flaticon-hair-cut-tool:before { content: "\f11a"; }
+.flaticon-relaxing-spa-light-of-burning-candles-couple:before { content: "\f11b"; }
+.flaticon-spa-container-of-creamy-soap:before { content: "\f11c"; }
+.flaticon-spa-hair-treatment-lotion-and-comb:before { content: "\f11d"; }
+.flaticon-spa-heating-stones-treatment:before { content: "\f11e"; }
+.flaticon-spa-bowl-to-mix-treatments-ingredients:before { content: "\f11f"; }
+.flaticon-relaxing-spa-ornaments:before { content: "\f120"; }
+.flaticon-spa-cream-pot-of-natural-flowers:before { content: "\f121"; }
+.flaticon-spa-face-mask-treatment-for-woman:before { content: "\f122"; }
+.flaticon-tea-pot:before { content: "\f123"; }
+.flaticon-bamboo-sticks-spa-ornament:before { content: "\f124"; }
+.flaticon-aromatherapy-spa-treatment:before { content: "\f125"; }
+.flaticon-spa-waters:before { content: "\f126"; }
+.flaticon-massage-spa-body-treatment:before { content: "\f127"; }
+.flaticon-herbal-spa-treatment-leaves:before { content: "\f128"; }
+.flaticon-essential-oil-drop-for-spa-massage-falling-on-an-open-hand:before { content: "\f129"; }
+.flaticon-lotus:before { content: "\f12a"; }
+.flaticon-woman-head-silhouette-with-a-flower-in-a-spa:before { content: "\f12b"; }
+.flaticon-massage-1:before { content: "\f12c"; }
+.flaticon-massage:before { content: "\f12d"; }
+.flaticon-person-silhouette-in-sauna:before { content: "\f12e"; }
+.flaticon-claw-bath-in-spa:before { content: "\f12f"; }
+.flaticon-plant:before { content: "\f130"; }

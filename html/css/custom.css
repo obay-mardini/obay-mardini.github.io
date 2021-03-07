@@ -1,0 +1,31 @@
+.header {
+  background: #87314e url('../img/backgrounds/IMAG0495.jpg') no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 100px;
+}
+
+#home .header {
+  padding-top: 250px;
+}
+
+.header img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  #home .content-wrapper {
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+}
+
+.content-wrapper {
+  overflow-y: auto;
+}
+
+@media (max-width: 1199px) {
+  .navbar-collapse.collapse.in { 
+    overflow-y: auto!important;
+  }
+}
