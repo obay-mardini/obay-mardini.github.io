@@ -1,18 +1,9 @@
 const express = require("express");
 const path = require("path");
 const helmet = require("helmet");
-const basicAuth = require("express-basic-auth");
 const template = require("./template");
 
 const app = express();
-
-app.use(
-  basicAuth({
-    users: { sara: "hermosa123" },
-    challenge: true,
-    realm: "Hermosa Palace"
-  })
-);
 
 app.use(helmet());
 
