@@ -1,25 +1,21 @@
 {
-  "name": "carola-hermosa",
+  "name": "carola-hermosa-master",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@gitlab.com/yatki/carola-hermosa.git"
+    "url": "git+https://github.com/obay-mardini/flourish.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Obay Mardini <omardini@ebay.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/obay-mardini/flourish.git/issues"
+    "url": "https://github.com/obay-mardini/flourish/issues"
   },
-  "homepage": "https://github.com/obay-mardini/flourish.git#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "express-basic-auth": "^1.1.6",
-    "helmet": "^3.15.0"
-  }
+  "homepage": "https://github.com/obay-mardini/flourish#readme"
 }
