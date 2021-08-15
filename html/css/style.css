@@ -1634,9 +1634,6 @@ Last change: 08 june 2018
      .back-to-top {
          right: 12px;
     }
-     .content-box {
-         margin-top: 200px!important;
-    }
      .inside-wrapper {
          padding: 20px 20px!important;
     }
@@ -1809,7 +1806,6 @@ Last change: 08 june 2018
          background-repeat: no-repeat;
     }
      .content-box {
-         margin-top: 400px;
          background: #fff;
          width: 100%;
          margin-bottom: 150px;
