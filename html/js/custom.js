@@ -151,7 +151,5 @@ Version: 1.0
 			});
 			return false;
 		});
-		
-	
 
 	}); // end window load function
