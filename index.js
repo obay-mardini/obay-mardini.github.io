@@ -33,7 +33,7 @@ app.get("/:pagename.html", (req, res) => {
     .type("text/html")
     .status(200)
     // trust google maps iFrame
-    .header("Content-Security-Policy", "script-src 'self' https://google.com")
+    .header("Content-Security-Policy", "script-src 'self' https://cdn.websitepolicies.io https://google.com")
     .send(htmlBody);
 });
 

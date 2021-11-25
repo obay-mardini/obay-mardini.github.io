@@ -8,6 +8,7 @@ Version: 1.0
 	//----------------------------------- Document ready -----------------------------------//
 	$(document).ready(function () {
 		"use strict";
+		
 	
 		//Scrolling feature 
 
@@ -97,8 +98,15 @@ Version: 1.0
 
 	$(window).load(function () {
 	"use strict";
-
-
+		// cookie banner
+		window.wpcc && window.wpcc.init({
+			"border": "thin", "corners": "small", "colors": {
+			"popup":
+				{ "background": "#ffe4e1", "text": "#000000", "border": "#c25e5e" }, "button": {
+				"background": "#c25e5e", "text": "#ffffff"
+				}
+			}, "position": "bottom"
+		});
 		// Page Preloader 	
 
 		$("#preloader").fadeOut("slow");
