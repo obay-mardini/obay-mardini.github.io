@@ -560,23 +560,23 @@ Last change: 08 june 2018
 /* background images in each section */
  #services .content-wrapper {
      background-size: cover!important;
-     background: url("../img/backgrounds/bg1.jpg");
+     /* background: url("../img/backgrounds/bg1.jpg"); */
 }
  #aboutus .content-wrapper {
      background-size: cover!important;
-     background: url("../img/backgrounds/bg2.jpg");
+     /* background: url("../img/backgrounds/bg2.jpg"); */
 }
  #contact .content-wrapper {
      background-size: cover!important;
-     background: url("../img/backgrounds/bg3.jpg");
+     /* background: url("../img/backgrounds/bg3.jpg"); */
 }
  #gallery .content-wrapper {
      background-size: cover!important;
-     background: url("../img/backgrounds/bg4.jpg");
+     /* background: url("../img/backgrounds/bg4.jpg"); */
 }
  #prices .content-wrapper {
      background-size: cover!important;
-     background: url("../img/backgrounds/bg5.jpg");
+     /* background: url("../img/backgrounds/bg5.jpg"); */
 }
 /*=========================== Services ============================ */
  .serviceBox {
@@ -1249,10 +1249,7 @@ Last change: 08 june 2018
  .nav-tabs.centered>li, .nav-pills.centered>li {
      float: none;
      display: inline-block;
-     *display: inline;
-    /* ie7 fix */
      zoom: 1;
-    /* hasLayout ie7 trigger */
 }
  .nav-tabs.centered, .nav-pills.centered {
      text-align: center;
