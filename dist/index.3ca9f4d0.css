@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  background: #87314e url("IMAG0495.bf39efb6.jpg") center / cover no-repeat;
+  padding-top: 100px;
+}
+
+#home .header {
+  padding-top: 250px;
+}
+
+.header img {
+  width: 100%;
+}
+
+@media (min-width: 1200px) {
+  #home .content-wrapper {
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+}
+
+.content-wrapper {
+  overflow-y: auto;
+}
+
+@media (max-width: 1199px) {
+  .navbar-collapse.collapse.in {
+    overflow-y: auto !important;
+  }
+}
+
+/*# sourceMappingURL=index.3ca9f4d0.css.map */
